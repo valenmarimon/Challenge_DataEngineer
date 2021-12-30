@@ -12,13 +12,13 @@ This email will be sent from a test email address(testvm.challenge@gmail.com).
 * Report_Weekly_Averages.py: Final script. It shows an input requiring the user to select between getting a report based on a rectangular Bounding Box (specifying 4 different points) or by Region.
 If the first option is selected, it will show a table with the weekly average of trips that were origined inside the bounding box.
 Else, it shows the weekly average of trips for the selected region.
-
-When selecting the report of a Bounding Box, the following points, extracted from the file, can be used as reference to create it:
-- POINT (10.00384920850646 53.65220121071665)
-- POINT (7.513135087952872 45.04417775442011)
-- POINT (14.65848565403607 50.11571340810843)
-- POINT (14.34394689715277 50.12299688052901)
+	When selecting the report of a Bounding Box, the following points, extracted from the file, can be used as reference to create it:
+	- POINT (10.00384920850646 53.65220121071665)
+	- POINT (7.513135087952872 45.04417775442011)
+	- POINT (14.65848565403607 50.11571340810843)
+	- POINT (14.34394689715277 50.12299688052901)
 							
+
 
 Requirements:
 * Install python (https://phoenixnap.com/kb/how-to-install-python-3-windows)
