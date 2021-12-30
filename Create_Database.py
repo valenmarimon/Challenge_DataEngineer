@@ -11,7 +11,7 @@ servername = socket.gethostname()
 
 #Create connection to local server
 try:
-    conn = pyodbc.connect('Driver={SQL Server};Server='+servername+';Database=Test;Trusted_Connection=yes;')
+    conn = pyodbc.connect('Driver={SQL Server};Server='+servername+'\MSSQLSERVER01;Database=master;Trusted_Connection=yes;')
     cursor = conn.cursor()
     conn.autocommit = True
 except:
