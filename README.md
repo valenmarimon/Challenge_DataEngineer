@@ -1,6 +1,6 @@
-# Challenge_Jobsity
+# Challenge_DataEngineer
 Description of the project:
-The scripts that are mentioned below are meant to fulfill the requirements stated in the Challenge sent.
+The scripts that are mentioned below are meant to fulfill the requirements stated in the sent challenge.
 * Create_Database.py: This is the first script that must be ran. It creates the connection to your local server(SQL server) and creates a Test database if non existant.
 
 * Create_Table_Trips.py: Next script to be executed. If it doesn't exist already, creates the Trips table with the columns provided in the Trips.csv file.
