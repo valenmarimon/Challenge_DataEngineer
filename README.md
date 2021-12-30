@@ -23,7 +23,7 @@ Else, it shows the weekly average of trips for the selected region.
 Requirements:
 * Install python (https://phoenixnap.com/kb/how-to-install-python-3-windows)
 * Install anaconda3 (https://docs.anaconda.com/anaconda/install/windows/) 
-* Install SQL Server (https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+* Install SQL Server Developer edition(https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 
 
 For windows:
@@ -37,4 +37,14 @@ Once located there, the scripts should be run with the following commands and or
 4) python Report_Weekly_Averages.py
 
 
+Common issues when connecting to SQL server:
+1- Inbound rule not created in Windows firewall (https://docs.sophos.com/esg/sgn/8-1/admin/en-us/esg/SafeGuard-Enterprise/tasks/DatabaseCheckFirewallSettings2008R2.html)
+2- Remote connections not allowed to server:
+	Use the following steps to enable remote connections to your SQL Server:
+		- Open SQL Server Management Studio.
+		- Right-click your server's name and select Properties.
+		- Select Connections option
+		- Tick the checkbox "Allow remote connections to this server."
+		- Select OK.
+3- If the SQL Server edition is different, the instance name of the server may change (e.g. Sql server Express edition will have an instance name of SQLEXPRESS). If that's the case, the connection string should be changed for every script.
 
